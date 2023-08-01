@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "BogartBold";
+    src: url('../font/Bogart-Bold-trial.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6, .font, a {font-family: "BogartBold" !important;}
+body, html, p {
+  height: 100%;
+  color: #000000;
+  line-height: 1.8;
+}
+
+.bodyText {
+    
+  font-family: "Raleway", serif !important;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/img/KELLY+ARTHUR_ENGAGEMENTS-44.jpg');
+  min-height: 100%;
+}
+
+/* Second image (DETAILS) */
+.bgimg-2 {
+    background-image: url('/img/KellyArthurSlowShutter.gif');
+  min-height: 500px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url('/img/KELLY+ARTHUR_ENGAGEMENTS-68.jpg');
+  min-height: 500px;
+}
+
+/* Third image (Contact) */
+.bgimg-4 {
+    background-image: url('/img/KELLY+ARTHUR_ENGAGEMENTS-24.jpg');
+  min-height: 500px;
+}
+
+/* Third image (Contact) */
+.bgimg-5 {
+  background-image: url('/img/KELLY+ARTHUR_ENGAGEMENTS-132.jpg');
+min-height: 500px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vugaribaywedding",
+  "version": "1.0.0",
+  "description": "wedding website for kelly and arthur",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkvu/vugaribaywedding.github.io"
+  },
+  "keywords": [
+    "wedding",
+    "kelly",
+    "vu",
+    "arthur",
+    "garibay",
+    "austin",
+    "texas"
+  ],
+  "author": "kelly vu",
+  "license": "ISC"
+}
