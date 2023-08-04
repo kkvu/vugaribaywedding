@@ -1,4 +1,4 @@
-# Template for Encrypted Single Page Website
+ÿþ# Template for Encrypted Single Page Website
 
 This template repository makes it easy to create a password protected page that is hosted on Github pages.
 This can be useful for information or events that should not be available to everyone, e.g. for your birthday, wedding or a corporate event.
@@ -7,7 +7,7 @@ To check the [demo](https://a-nau.github.io/password-protected-website-template)
 
 ![Demo](assets/hidden/demo.gif)
 
-**Disclaimer**: Please be aware, that I (or the dependencies) might have missed something, so do not assume this to be bullet proof. Do not share bank information or similar this way.
+**Disclaimer**: Please be aware, that I (or the dependenciesmight have missed something, so do not assume this to be bullet proof. Do not share bank information or similar this way.
 
 ## Usage
 
@@ -15,7 +15,7 @@ To check the [demo](https://a-nau.github.io/password-protected-website-template)
 - Select a repository name (your URL will be `{GITHUB-ACCOUNT-NAME}.github.io/{REPOSITORY-NAME}`)
 - Choose the repository to be **private**, if you don't want people to be able to access the contents without the password
 - [Create a Github secret](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) named `DECRYPTION_PASSPHRASE` and set the `value` to your desired password (note that the CI pipeline will fail on the first attempt due to the missing password)
-- [Set the publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) to the `main` branch in order to activate hosting with Github Pages
+- [Set the publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-sourceto the `main` branch in order to activate hosting with Github Pages
 
 To customize the website:
 
@@ -56,7 +56,7 @@ on:
 
 ### Local Usage
 
-If you don't want to have any of your data (even) in a private repository you can also convert it locally and only upload the `index.html` afterwards.
+If you don't want to have any of your data (evenin a private repository you can also convert it locally and only upload the `index.html` afterwards.
 To do this, follow these steps:
 
 - Build the image
@@ -75,8 +75,8 @@ To do this, follow these steps:
 
 ## Credits
 
-- The encryption is made by [StatiCrypt](https://github.com/robinmoisson/staticrypt): [MIT](https://github.com/robinmoisson/staticrypt/blob/main/LICENSE) License
-- We use the [workflow](https://github.com/Jack-alope/staticrypt-github-actions/blob/main/.github/workflows/encrypt.yml) from [staticrypt-github-actions](https://github.com/Jack-alope/staticrypt-github-actions) as a basis: [MIT](https://github.com/Jack-alope/staticrypt-github-actions/blob/main/LICENSE) License
-- We use [Bootstrap](https://getbootstrap.com/), including one of their [examples](https://getbootstrap.com/docs/4.0/examples/) ([demo](https://getbootstrap.com/docs/4.0/examples/cover/#)): [MIT](https://github.com/twbs/bootstrap/blob/main/LICENSE) License
+- The encryption is made by [StatiCrypt](https://github.com/robinmoisson/staticrypt): [MIT](https://github.com/robinmoisson/staticrypt/blob/main/LICENSELicense
+- We use the [workflow](https://github.com/Jack-alope/staticrypt-github-actions/blob/main/.github/workflows/encrypt.ymlfrom [staticrypt-github-actions](https://github.com/Jack-alope/staticrypt-github-actionsas a basis: [MIT](https://github.com/Jack-alope/staticrypt-github-actions/blob/main/LICENSE) License
+- We use [Bootstrap](https://getbootstrap.com/), including one of their [examples](https://getbootstrap.com/docs/4.0/examples/([demo](https://getbootstrap.com/docs/4.0/examples/cover/#)): [MIT](https://github.com/twbs/bootstrap/blob/main/LICENSE) License
 - We use code from [six-four](https://github.com/chrissimpkins/six-four/tree/master) to determine image MIME types: [MIT](https://github.com/chrissimpkins/six-four/blob/master/LICENSE) License
 - We use the [Github CSS Ribbon](https://github.com/simonwhitaker/github-fork-ribbon-css): [MIT ](https://github.com/simonwhitaker/github-fork-ribbon-css/blob/gh-pages/LICENSE) License
