@@ -31,7 +31,7 @@ jobs:
           python embed.py
       - name: Encrypt index
         run: >
-          staticrypt index.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
+          staticrypt index.html -p ${{ secrets.PASSPHRASE }} --short
           --template "password_template.html"
           --template-title "Login"
           --template-instructions "Welcome to kellyandarthur.com. Please enter the password to proceed."

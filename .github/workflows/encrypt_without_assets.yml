@@ -23,7 +23,7 @@ jobs:
           fi
       - name: Encrypt index
         run: >
-          staticrypt main.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
+          staticrypt main.html -p ${{ secrets.PASSPHRASE }} --short
           --template "password_template.html"
           --template-title "Login"
           --template-instructions "Welcome to kellyandarthur.com. Please enter the password to proceed."
