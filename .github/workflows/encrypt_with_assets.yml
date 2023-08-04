@@ -1,4 +1,4 @@
-name: Encrypt Page with Assets
+name: Kelly and Arthur Wedding Website
 
 on:
   push:
@@ -35,7 +35,7 @@ jobs:
           --template "password_template.html"
           --template-title "Login"
           --template-instructions "Welcome to kellyandarthur.com. Please enter the password to proceed."
-          --template-button "Open Page"
+          --template-button "Continue"
           --template-color-primary "#113e9f"
           --template-color-secondary "#e4e4e4"
       - name: Clean up
