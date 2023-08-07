@@ -26,7 +26,7 @@ body, html, p {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('assets/img/KELLY+ARTHUR_ENGAGEMENTS-44.jpg');
+  background-image: url('assets/img/ENGAGEMENTS-44.jpg');
   min-height: 100%;
 }
 
@@ -38,19 +38,19 @@ body, html, p {
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url('assets/img/KELLY+ARTHUR_ENGAGEMENTS-68.jpg');
+    background-image: url('assets/img/ENGAGEMENTS-68.jpg');
   min-height: 500px;
 }
 
 /* Third image (Contact) */
 .bgimg-4 {
-    background-image: url('assets/img/KELLY+ARTHUR_ENGAGEMENTS-24.jpg');
+    background-image: url('assets/img/ENGAGEMENTS-24.jpg');
   min-height: 500px;
 }
 
 /* Third image (Contact) */
 .bgimg-5 {
-  background-image: url('assets/img/KELLY+ARTHUR_ENGAGEMENTS-132.jpg');
+  background-image: url('assets/img/ENGAGEMENTS-132.jpg');
 min-height: 500px;
 }
 
