@@ -1,6 +1,6 @@
 @font-face {
     font-family: "BogartBold";
-    src: url('../assets/font/Bogart-Bold-trial.ttf') format('truetype');
+    src: url('../font/Bogart-Bold-trial.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -26,31 +26,31 @@ body, html, p {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('assets/img/ENGAGEMENTS-44.jpg');
+  background-image: url('img/ENGAGEMENTS-44.jpg');
   min-height: 100%;
 }
 
 /* Second image (DETAILS) */
 .bgimg-2 {
-    background-image: url('assets/img/KellyArthurSlowShutter.gif');
+    background-image: url('img/KellyArthurSlowShutter.gif');
   min-height: 500px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url('assets/img/ENGAGEMENTS-68.jpg');
+    background-image: url('img/ENGAGEMENTS-68.jpg');
   min-height: 500px;
 }
 
 /* Third image (Contact) */
 .bgimg-4 {
-    background-image: url('assets/img/ENGAGEMENTS-24.jpg');
+    background-image: url('img/ENGAGEMENTS-24.jpg');
   min-height: 500px;
 }
 
 /* Third image (Contact) */
 .bgimg-5 {
-  background-image: url('assets/img/ENGAGEMENTS-132.jpg');
+  background-image: url('img/ENGAGEMENTS-132.jpg');
 min-height: 500px;
 }
 
