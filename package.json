@@ -20,5 +20,8 @@
     "texas"
   ],
   "author": "kelly vu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "form-data-json-convert": "^2.2.0"
+  }
 }
