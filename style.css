@@ -7,12 +7,15 @@
 
 h1,h2,h3,h4,h5,h6, .font, a {font-family: "BogartBold" !important;}
 body{
-  margin: 0 -25px 0 0 !important;
+  margin: 0 -55px 0 0 !important;
   height: 100%;
   color: #000000;
   line-height: 1.8;
 }
-
+.w3-bar .w3-bar-item{
+  
+  padding: 8px 30px !important;
+}
 html, p {
   height: 100%;
   color: #000000;
@@ -82,4 +85,42 @@ min-height: 500px;
   border-radius: 3px;
   font-size: 14px;
   margin-top: 10px;
+}
+
+form {
+  display: inline-block;
+}
+
+button {
+  width: 400px;
+}
+
+.flex {
+  display: flex;
+}
+
+input {
+  margin-right: 10px !important;
+  height: 40px;
+  width: 90% !important;
+}
+
+.offset1 {
+  position: absolute;
+  bottom: -45px;
+  left: -35px;
+  z-index: 100;
+}
+
+.relative {
+  position: relative;
+}
+
+.input-row{
+  
+  width: 95%;
+}
+
+.subscribe{
+background-color: #000000 !important;
 }
