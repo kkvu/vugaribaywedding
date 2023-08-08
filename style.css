@@ -18,7 +18,6 @@ body{
   padding: 8px 30px !important;
 }
 html, p {
-  height: 100%;
   color: #000000;
   line-height: 1.8;
 }
@@ -55,13 +54,13 @@ html, p {
   min-height: 500px;
 }
 
-/* Third image (Contact) */
+/* Fourth image (Contact) */
 .bgimg-4 {
     background-image: url('img/ENGAGEMENTS-24.jpg');
   min-height: 500px;
 }
 
-/* Third image (Contact) */
+/* Fifth image (Contact) */
 .bgimg-5 {
   background-image: url('img/ENGAGEMENTS-132.jpg');
 min-height: 500px;
@@ -72,7 +71,7 @@ min-height: 500px;
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, .bgimg-2 {
     background-attachment: scroll;
     min-height: 400px;
   }
@@ -89,11 +88,8 @@ min-height: 500px;
 }
 
 form {
-  display: inline-block;
-}
-
-button {
-  width: 400px;
+  display: inline-block;  
+  width: 100%;
 }
 
 .flex {
@@ -115,11 +111,6 @@ input {
 
 .relative {
   position: relative;
-}
-
-.input-row{
-  
-  width: 95%;
 }
 
 .subscribe{
