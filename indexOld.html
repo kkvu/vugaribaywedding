@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vu Garibay Wedding</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <!-- do not cache this page -->
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+</head>
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"> ABOUT</a>
+            <a href="#details" class="w3-bar-item w3-button w3-hide-small"> DETAILS</a>            
+            <a href="#subscribe" class="w3-bar-item w3-button w3-hide-small"> SUBSCRIBE</a>
+            <a href="#rsvp" class="w3-bar-item w3-button w3-hide-small"> RSVP</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"> about</a>
+            <a href="#details" class="w3-bar-item w3-button" onclick="toggleFunction()">DETAILS</a>
+            <a href="#subscribe" class="w3-bar-item w3-button" onclick="toggleFunction()">SUBSCRIBE</a>
+            <a href="#rsvp" class="w3-bar-item w3-button" onclick="toggleFunction()">RSVP</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle font" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity">KELLY &
+                ARTHUR</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64 relative" id="about">
+        <h2 class="w3-center">About</h2>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <img src="img/ENGAGEMENTS-141.jpg" class="w3-round w3-image" width="400">
+            </div>
+            <div class="w3-col m6 w3-padding-large bodyText">
+                <div class="bodyText">We're doing it. After nearly 8 years together, we are finally making things legal,
+                    are
+                    having a party and want you to be there! </div>
+                <hr>
+
+                <p class="bodyText">
+                    Kelly and Arthur met when they were 18 years old on the first day of school at the University of
+                    Texas at Austin. They had crushes on each other at some point during college but remained
+                    acquaintances, working on class assignments, and collaborating on some projects together.
+                </p>School flies by, graduation passes, and they lose touch. Worklife ensues and a few years later at
+                the age of 24, they run into each other at good ol' Barbarella in Downtown Austin. Arthur didn't even
+                know Kelly lived in Austin at the time. A week later, they go on their first date to 888 and have been
+                inseparable ever since.
+                <p class="bodyText">
+                    They have created incredible memories together - traveling the world, building their lives in
+                    Austin, and supporting each other as they follow their dreams.
+                    Through the ups and downs, they'll continue to take on life together....even when Arthur is being
+                    unbearingly annoying and Kelly doesn't have the patience for it. They are truly soulmates. </p>
+                <p>Thank you for being a part of our story, and we can't wait to celebrate with you!</p>
+            </div>
+        </div>
+        <!-- <div class="offset1"> <img src="img/ENGAGEMENTS-38.jpg" class="w3-round w3-image" width="300">
+        </div> -->
+
+    </div>
+
+    <!-- Second Parallax Image with RSVP Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+        </div>
+    </div>
+
+    <!-- Container (Details Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="details">
+        <h2 class="w3-center">Details</h2>
+
+        <div class="w3-row">
+
+            <div class="w3-col m6 16 w3-right-align w3-padding-large">
+                <div class="w3-right-align bodyText"><b><u>WHEN</u></b> <br>
+                    ​Saturday, April 13th, 2024</div>
+
+                <!-- Wedding Ceremony: 5:00 pm<br>
+                
+                Cocktail Hour: 5:30 pm<br>
+                
+                Reception: 6:30 pm<br> -->
+
+                <p class="w3-right-align bodyText"><b><u>WHERE</u></b>
+                    <br>
+                    The Contemporary Austin - Jones Center<br>
+                    700 Congress Ave.<br>
+                    Austin, TX 78701
+                </p>
+
+                <p class="w3-right-align bodyText">
+                    <b><u>PARKING</u></b> <br>Since we'll be downtown, there is no venue parking provided. There is
+                    metered street parking (paid by the hour) or a
+                    <a href="https://parkabm.com/facilities/600-congress-parking/">parking garage across the street</a>.
+                    Ridesharing is encouraged!
+                </p>
+
+
+                <p class="w3-right-align bodyText"><i>More details to follow.</i></p>
+            </div>
+
+            <div class="w3-col m6 16 w3-center w3-padding-large">
+                <img src="img/ENGAGEMENTS-53.jpg" class="w3-round w3-image" alt="Photo of us!" width="500" height="333">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Container (Subscribe Section) -->
+    <div class="w3-container w3-padding-64 w3-black subscribe" id="subscribe">
+        <h2 class="w3-center">SUBSCRIBE </h2>
+        <div class="w3-content w3-section">
+            <div class="w3-col m8 w3-panel bodyText w3-center">
+                <p class="bodyText w3-black w3-center">
+                    Want to stay in the know? Sign up now and we'll keep you in the loop with any updates.
+                </p>
+                <form name="myemailform" id="myemailform" onsubmit="return subscribe()">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <input class="w3-input w3-border bodyText" type="text" placeholder="Name" id="Name" required
+                            name="entry.1064657779">
+                        <input class="w3-input w3-border bodyText" type="email" placeholder="Email" id="Email" required
+                            name="entry.1876428971">
+                    </div>
+                    <div class="input-row">
+                        <button class="w3-button w3-white bodyText w3-right w3-section" type="submit"><i
+                                class="fa fa-envelope"></i></i> SUBSCRIBE</button>
+                    </div>
+                </form>
+                <p class="subscribe-form__thanks hide">
+                    You're all set. We will be in touch!
+                  </p>
+            </div>
+            <div class="w3-col m4 w3-container ">
+                <img src="img/ENGAGEMENTS-108.jpg" class="w3-image w3-round" style="width:300px">
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Parallax Image with RSVP Text -->
+    <div class="bgimg-4 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+        </div>
+    </div>
+
+    <!-- Container (RSVP Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="rsvp">
+
+        <h2 class="w3-center">RSVP</h2>
+        <div class="w3-row">
+            <div class="w3-col m6 16 w3-center w3-padding-large">
+                <img src="img/ENGAGEMENTS-38.jpg" style="width:100%" alt="The mist over the mountains">
+            </div>
+
+            <div class="w3-col m6 16 w3-center w3-padding-large">
+                <p class="w3-left-align bodyText">We'd love for you to celebrate with us. </p>
+
+                <p class="w3-left-align bodyText">RSVP's will be open once official invitations have been sent.</p><br>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+    <!-- Third Parallax Image -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h2 class="w3-center">CONTACT</h2>
+
+        <div class="w3-row w3-section">
+            <div class="w3-col m8 w3-container ">
+                <img src="img/ENGAGEMENTS-32.jpg" class="w3-image w3-round" style="width:100%">
+            </div>
+            <div class="w3-col m4 w3-panel bodyText">
+                <em>Drop us a line!</em>
+                <p>Whether it's a song request, marriage advice, words of encouragement or a roast - we'd love to hear
+                    from you:</p>
+                <form name="contactForm" id="contactForm" onsubmit="return contactUs()">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <input class="w3-input w3-border" type="text" placeholder="Who are you?" id="ContactName" required
+                            name="entry.805164722">
+                        <input class="w3-input w3-border" type="text" placeholder="Tell us something" id="Message"
+                            required name="entry.244595963">
+                    </div>
+
+                    <div class="input-row">
+                        <button class="w3-button w3-black w3-right w3-section" type="submit">
+                            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                        </button>
+                    </div>
+                </form>
+                <p class="contact-form__thanks hide">
+                    We got it. Thanks for the note!
+                  </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off bgimg-5 w3-display-container">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+</body>
+</html>
