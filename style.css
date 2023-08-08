@@ -124,3 +124,15 @@ input {
 .subscribe{
 background-color: #000000 !important;
 }
+
+.hide {
+  display: none;
+}
+
+.subscribe-form__thanks{
+  color: green;
+}
+
+.contact-form__thanks{
+  color: green;
+}
