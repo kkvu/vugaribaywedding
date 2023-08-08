@@ -16,7 +16,7 @@ function subscribe() {
     dataType: "xml",
     success: function (d) {
       // document.getElementById('myemailform').reset()
-      $('#myemailform')[0].reset();
+      // $('#myemailform')[0].reset();
 
       console.log(field1, field2);
     },
@@ -48,7 +48,7 @@ function contactUs() {
     dataType: "xml",
     success: function (d) {
       // document.getElementById('myemailform').reset()
-      $('#contact')[0].reset();
+      // $('#contact')[0].reset();
 
       console.log(field1, field2);
     },
