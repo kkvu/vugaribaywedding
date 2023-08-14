@@ -73,7 +73,7 @@ min-height: 500px;
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     background-attachment: scroll;
-    min-height: 400px;
+    min-height: 500px;
   }
 }
 
@@ -127,4 +127,8 @@ background-color: #000000 !important;
 
 .contact-form__thanks{
   color: green;
+}
+
+hr {
+  border-top: 4px solid black !important;
 }
